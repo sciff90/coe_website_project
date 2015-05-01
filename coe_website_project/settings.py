@@ -1,12 +1,12 @@
-"""
-Django settings for coe_website_project project.
 
-For more information on this file, see
-https://docs.djangoproject.com/en/1.6/topics/settings/
+#Django settings for coe_website_project project.
 
-For the full list of settings and their values, see
-https://docs.djangoproject.com/en/1.6/ref/settings/
-"""
+#For more information on this file, see
+#https://docs.djangoproject.com/en/1.6/topics/settings/
+
+#For the full list of settings and their values, see
+#https://docs.djangoproject.com/en/1.6/ref/settings/
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os

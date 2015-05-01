@@ -1,34 +1,37 @@
-#Centre for Organic Electronics Website
+Centre for Organic Electronics Website
+======================================
 
-##Requirements
+Requirements
+------------
 
-* Python version >= 2.7.6
-* pip >= 1.5.4
+-   python version \>= 2.7.6
+-   pip \>= 1.5.4
 
-##Installation
+Installation
+------------
 
 Using pip install virtualenv and virtualenvwrapper. These allow for easy use of a local virtualenvironmet to do all of the development. This ensures when the app is deployed it won't break.
 
-```bash
+~~~~ {.bash}
 pip install virtualenv
 pip install virtualenvwrapper
-```
+~~~~
 
 Then call the shell script virtualenvwrapper.sh
 
-```bash
+~~~~ {.bash}
 source virtualenvwrapper.sh
-```
+~~~~
 
-Now create the virtual environment and the use 'workon' to change into the virtualenv:
+Now create the virtual environment and use 'workon' to change into the virtualenv:
 
-```bash
+~~~~ {.bash}
 mkvirtualenv coe_website
 workon coe_website
-```
+~~~~
+
 Once in the local environment the dependencies of the app need to be installed. This is easily done using pip and the 'requirements.txt' file located in the project's top directory.
 
-```bash
+~~~~ {.bash}
 pip install -r requirements.txt
-
-```
+~~~~
