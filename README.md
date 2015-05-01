@@ -8,9 +8,7 @@
 ##Installation
 
 ```bash
-mkdir test
-cd test
-echo "test"
-
+pip install virtualenv
+pip install virtualenvwrapper
 ```
 
