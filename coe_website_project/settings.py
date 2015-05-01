@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'opv_costings'
+    'opv_costing'
 )
 
 MIDDLEWARE_CLASSES = (
